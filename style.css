@@ -31,7 +31,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: red;
+  color: rgb(0, 89, 255);
 }
 
 .headerAdress {
