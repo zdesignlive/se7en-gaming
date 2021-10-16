@@ -31,7 +31,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: rgb(0, 89, 255);
 }
 
 .headerAdress {
@@ -57,12 +56,11 @@
   color: #ff005b;
   filter: blur(40px);
 }
-
 nav {
   position: fixed;
   width: 100%;
   height: 100vh;
-  background: #ffc200;
+  background: #0077ff;
   z-index: 2;
   top: 0;
   left: 0;
