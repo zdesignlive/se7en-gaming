@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Se7eN Gaming - Leskovac</title>
+</head>
+<body>
+    
+    <section class="hero-paralax paralax-1">
+        <div class="container">
+            <div id="header">
+                <div class="logo">
+                  <h1 class="neon"data-text="[Se7eN GAMING]">[Se7eN GAMING]</h1>
+                </div>
+                <div class="headerAdress">
+                    <h3>Ucitelja Josifa 1/4 - 16000/Leskovac</h3>
+                </div>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <img src="images/menuClose.png" class="menuClose" onclick="closemenu()" alt="">
+                </nav>
+                <img src="images/hamburgerMenu.png" class="menuOpen" onclick="openmenu()" alt="">
+            </div>
+        </div>
+        <div class="container">
+        <div id="main">
+            <div class="socials">
+                <div class="stroke"></div>
+                <div class="instagram">
+                  <a target="_blank" href="https://www.instagram.com/pc_caffese7en/?hl=en"> <i class="fab fa-instagram-square"></i></a>
+                </div>
+            </div>
+            <div class="logoPrimary">
+                <img src="images/logoPrimary.png" width="250" alt="">
+            </div>
+            <div class="banner-text">
+                <h2>
+                    "Gamers don't die"
+                </h2>
+                <p>They respown</p>
+            </div>
+            <div class="strokeScroll"></div>
+            <div class="scroll">
+                <h4>scroll</h4>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="hero-paralax paralax-2">
+        <div class="container">
+
+        </div>
+    </section>
+
+    <script>
+        var menu = document.getElementById("menu");
+
+        function closemenu() {
+            menu.style.top = "-100vh";
+        }
+
+        function openmenu() {
+            menu.style.top = "0";
+        }
+    </script>
+</body>
+</html>
